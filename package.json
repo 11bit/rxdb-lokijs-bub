@@ -1,10 +1,13 @@
 {
   "name": "rxdb-lokijs-bug",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "parcel": "^2.2.1"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "dependencies": {
     "lokijs": "^1.5.12",
